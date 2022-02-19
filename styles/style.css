@@ -1,0 +1,185 @@
+body {
+    background: no-repeat center 20% url(/encriptador-texto/images/background.jpg);
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 3vw auto;
+    color: rgb(255, 255, 0);
+    text-shadow: 5px 5px 5px blue;
+}
+
+.textA {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: antiquewhite;
+}
+
+.inputA {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.botEncriptar {
+    background: no-repeat center url(/encriptador-texto/images/button.jpg);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    width: 150px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 2rem;
+    color: white;  
+}
+
+.botDesencriptar {
+    background: no-repeat center url(/encriptador-texto/images/button.jpg);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    width: 150px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 2rem;
+    color: white;   
+}
+
+.textoModificado {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.botCopiar {
+    background: no-repeat center url(/encriptador-texto/images/button.jpg);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+    width: 150px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 2rem;
+    color: white;   
+}
+
+.textoAbajo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:antiquewhite;
+    width: 25%;
+    margin: 50px auto;
+    border-radius: 2rem;
+    padding: 5px;
+}
+
+/* Quitar color y subrayado del hipervínculo */
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+/* Al pasar el mouse, ponerse de color (con sombra)... */
+a:hover {
+    text-shadow: 5px 5px 5px blue;
+    color: gold;
+}
+
+/* Acomodar el nav, sin puntitos y horizontal */
+.navegacion ul {
+    text-align: center;
+    list-style: none;
+}
+
+.navegacion li {
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+
+/* Centrar el último hipervínculo */
+.miGit {
+    text-align: center;
+}
+
+@media (max-width: 1500px) {
+    .textoAbajo {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .textoAbajo {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1050px) {
+
+.textoAbajo {
+    width: 40%;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+.titulo {
+    font-size: 35px;
+    text-align: center;
+}
+
+.textA {
+    font-size: 75%;
+    display: flex;
+    text-align: center;
+}
+
+.inputA {
+    font-size: 75%;
+    text-align: center;
+}
+
+.textoModificado {
+    font-size: 75%;
+    text-align: center;
+}
+
+.botCopiar {
+    text-align: center;
+}
+
+.textoAbajo {
+    font-size: 20px;
+    width: 45%;
+}
+}
+
+@media (max-width: 750px) {
+
+.textA {
+    font-size: 16px;
+}
+
+.textoAbajo {
+    width: 55%;
+    }
+}
+
+@media (max-width: 550px) {
+.textoAbajo {
+    width: 70%;
+    }
+}
